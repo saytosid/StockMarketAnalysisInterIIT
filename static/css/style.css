@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Sniglet|Raleway:600);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+	font-family: 'Lato', sans-serif !important;
+}
+.navbar-brand{
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif !important;
+	color: #fff !important;
+}
+.navbar-brand span{
+	color: #5383d3 !important;
+}
+
+.line1{
+	height: 0.5vh;
+	background-color: #2e3540;
+}
+
+.line2{
+	height: 0.5vh;
+	background-color: #67ff8c;
+}
+
+.stock{
+	list-style: none;
+	font-family: 'Lato', sans-serif;
+	padding: 1vw;
+	font-size: 1.5em;
+	border: 1px solid #000;
+}
+
+#intro{
+	color: #fff;
+}
+
+#intro:before{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+	content: '';
+	background-image: url('../images/bg.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+}
+
+
+.lightbox_trigger {
+	cursor: pointer;
+	padding: 1%;
+	text-decoration: underline;
+}
+
+#search h1, .submitButton, #loading{
+	font-family: 'Raleway', serif;
+}
+#loading{
+	padding-top: 2%;
+	font-size: 1.2em;
+}
+
+li{
+	font-family: 'Roboto', serif;
+	font-weight: 900;
+}
+
+
+/* For the headers to look good, be sure to reset the margin and padding of the body */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.content {
+	min-height: 800px;
+	margin-top: 5%;
+}
+
+#lightbox {
+	position:fixed;
+	top:0; 
+	left:0; 
+	width:100%; 
+	height:100%; 
+	background: rgba(0,0,0,.4);
+	text-align: justify;
+	display: none;
+}
+
+label, input, textarea{
+	display: block;	
+}
+input, textarea{
+	width: 75%;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+input:focus, textarea:focus{
+	border: solid 3px #77bde0;	
+}
+
+textarea{
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+input[type="submit"]{
+	background-color: #F90;
+	color: white;
+	height: 2em;
+	width: 20%;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+	background-color: #e58f0e;
+	
+}
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}
